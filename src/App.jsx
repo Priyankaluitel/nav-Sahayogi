@@ -35,14 +35,22 @@
 // export default App
 import React from 'react'
 import Navbar from './Components/Navbar/Navbar'
+// import Home from './Components/Home/Home'
+// import AboutUs from './Components/AboutUs/AboutUs'
+// import Contact from './Components/ContactUs/Contact'
 import Hero from './Components/Hero/Hero'
 import Footer from './Components/Footer/footer';
+// import Donate from './Components/Donate/Donate';
 
  const App = () => {
   return (
     <div>
     <Navbar/>
      <Hero/>
+     {/* <Home/>
+     <AboutUs/>
+     <Contact/> 
+     <Donate/> */}
      <Footer/>
     </div>
   )

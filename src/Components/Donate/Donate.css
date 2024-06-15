@@ -1,0 +1,355 @@
+/* .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fffdfd;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: rgb(5, 66, 6);
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+
+  }
+  
+  input[type="text"],
+  textarea {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  } */
+
+  /* TRIGYA */
+/*   
+  #root {
+    max-width: 2500px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #09823c;
+}
+ 
+.diver{
+    width:auto;
+    display:block;
+    align-items:center;
+    text-align: center;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: rgb(231, 231, 231);
+    color:black;
+    padding:20px;
+    font-size: 18px;
+    text-align: left;
+    width:700px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+   
+}
+input[type="number"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: #ccc;
+}
+
+input[type="Payment"],
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: #ccc;
+}
+
+input[type="file"] {
+    display: block;
+    margin-top: 20px;
+}
+
+button[type="submit"] {
+    background-color: #09823c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+
+
+.diver {
+    max-width: 600px; 
+    margin: 40px auto; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  @media only screen and (min-width: 768px) {
+   .diver {
+      width: 60%; 
+    }
+    label {
+      display: block; /* Make labels block-level elements 
+      margin-bottom: 10px;
+    }
+    input, textarea, select {
+      width: 100%; /* Make form fields full-width 
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    button[type="submit"] {
+      width: 100%; /* Make submit button full-width 
+      padding: 10px;
+      font-size: 18px;
+    }
+  }
+  
+  /* Tablet styles 
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+   .diver {
+      width: 80%; /* Take up 80% of the screen width 
+    }
+    label {
+      font-size: 16px;
+    }
+    input, textarea, select {
+      padding: 8px;
+      margin-bottom: 15px;
+    }
+    button[type="submit"] {
+      font-size: 16px;
+    }
+  }
+  
+  /* Mobile styles 
+  @media only screen and (max-width: 479px) {
+   .diver {
+      width: 90%; /* Take up 90% of the screen width 
+    }
+    label {
+      font-size: 14px;
+    }
+    input, textarea, select {
+      padding: 6px;
+      margin-bottom: 10px;
+    }
+    button[type="submit"] {
+      font-size: 14px;
+    }
+  } 
+  */
+
+  /* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  #root {
+    max-width: 2500px;
+    /* margin: 0 auto; */
+    
+    text-align: center;
+    background-color: #09823c;
+  }
+  
+  /* Form Styles */
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+    width: 100%; /* Changed from 700px to 100% for responsiveness */
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"],
+  input[type="Payment"],
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: #ccc;
+    width: 100%; /* Added width: 100% for responsiveness */
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #09823c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  
+  .diver {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 768px) {
+   .diver {
+      width: 60%; /* Take up 60% of the screen width */
+    }
+    label {
+      margin-bottom: 10px;
+    }
+    input, textarea, select {
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+    button[type="submit"] {
+      padding: 10px;
+      font-size: 18px;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+   .diver {
+      width: 80%; /* Take up 80% of the screen width */
+    }
+    label {
+      font-size: 16px;
+    }
+    input, textarea, select {
+      padding: 8px;
+      margin-bottom: 15px;
+    }
+    button[type="submit"] {
+      font-size: 16px;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 479px) {
+   .diver {
+      width: 90%; /* Take up 90% of the screen width */
+    }
+    label {
+      font-size: 14px;
+    }
+    input, textarea, select {
+      padding: 6px;
+      margin-bottom: 10px;
+    }
+    button[type="submit"] {
+      font-size: 14px;
+    }
+  }
+
+  .hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(152, 184, 140, 0.7), rgba(127, 123, 156, 0.7)), url(/src/assets/photo22.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Responsive styles */
+  
+  @media only screen and (max-width: 768px) {
+    .hero {
+      min-height: 80vh; /* Reduce min-height on smaller screens */
+      background-size: 100% 100%; /* Adjust background size to fit smaller screens */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .hero {
+      min-height: 60vh; /* Reduce min-height on even smaller screens */
+      background-size: 100% 100%; /* Adjust background size to fit smaller screens */
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .hero {
+      min-height: 40vh; /* Reduce min-height on very small screens */
+      background-size: 100% 100%; /* Adjust background size to fit smaller screens */
+    }
+  }

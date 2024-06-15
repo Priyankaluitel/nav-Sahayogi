@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
    <nav className='container'>
     <img src={logo} alt=" " className='logo' />
-    <ul>
+    <ul >
         <li>
         <button className='btn'>Home</button>
         </li>
